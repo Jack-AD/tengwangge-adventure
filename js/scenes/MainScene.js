@@ -9,7 +9,7 @@ class MainScene extends Phaser.Scene {
             frameWidth: 32, 
             frameHeight: 48 
         });
-        this.load.image('tengwangge_long', 'assets/tengwangge_long.PNG');
+        this.load.image('tengwangge_long', 'assets/tengwangge_long.png');
         this.load.spritesheet('guide', 'assets/guide.png', { frameWidth: 32, frameHeight: 48 });
     }
 
